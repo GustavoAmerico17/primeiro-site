@@ -18,7 +18,7 @@ ul{
 }
 
 .links{
-    margin-left: 30px;
+    margin-left: 20px;
     cursor: pointer;
 }
 .log-in{
@@ -85,5 +85,71 @@ button:active{
     opacity: .5;
 }
 div{
-margin-left: 50px;
+margin-left: 20px;
+
 }
+
+@media screen and (max-width:500px){
+    
+
+   
+    header{
+        display: none;
+    }
+    main{
+        display: block;
+        width: 50%;
+        height: 100%;
+    }
+    
+        
+    
+    p{
+        display: none;
+    }
+    img{
+        width: 354px;
+        height:317px;
+
+        
+        
+        
+        
+        
+        
+        
+    }
+    h1{
+        Width:273px;
+        Height:52px;
+        font-size: 55px;
+        text-align: center;
+        margin-left: 20px;
+        line-height: 60.95px;
+    }
+    h2{
+        Width:232px;
+        Height:37px;
+        font-size: 30px;
+        text-align: center;
+        margin-left: 35px;
+    
+    }
+    .explore{
+        text-align: center;
+        width: 240px;
+        height: 56px;
+        margin-left:40px ;
+        font-size: 20px;
+
+    }
+    .row{
+        width: 50%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+        
+    }
+
+    }
